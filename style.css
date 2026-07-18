@@ -82,4 +82,8 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:40px;
+logo img {
+    height: 55px;
+    width: auto;
+    display: block;
 }
