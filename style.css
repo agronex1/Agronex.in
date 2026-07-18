@@ -76,14 +76,42 @@ nav a{
     margin:15px 0;
 }
 
-footer{
-    background:#1B5E20;
-    color:white;
-    text-align:center;
-    padding:20px;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+background-size: cover;
+background-position: center;
+color:gold;
     margin-top:40px;
 logo img {
     height: 55px;
     width: auto;
     display: block;
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #1b5e20;
 }
